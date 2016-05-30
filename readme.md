@@ -1,3 +1,36 @@
+#Tag-ST2
+
+This is my repo of the last version of [Tag](https://github.com/titoBouzout/Tag) to be released for Sublime Text 2. I strongly urge you to upgrade to [ST3](https://sublimetext.com/3 "Sublime Text 3") if at all possible and use [this version](https://packagecontrol.io/packages/Tag) of the plugin. However, if you still need to stay with ST2 for whatever reason, this repo is here for you.
+
+## Important Note
+
+I do not plan on maintaining this package. If you absolutely *must* file an issue or a PR, go right ahead (I'm not disabling them), but don't feel bad if I ignore you.
+
+## Installation
+
+For now the only way to install it is manually. There are two ways to do this: by downloading an archive, or via git. Both methods require you know where your `Packages` folder is:
+
+* Windows Regular Install: `%APPDATA%\Sublime Text 2\Packages`
+* Windows Portable Install: `InstallationFolder\Sublime Text 2\Data\Packages`
+* OS X: `~/Library/Application Support/Sublime Text 2/Packages`
+* Linux: `~/.config/sublime-text-2/Packages`
+
+The menu item **`Preferences → Browse Packages…`** will open the `Packages` folder in your operating system's file manager application (Windows Explorer, Finder, Nautilus, etc.).
+
+### Archive
+
+Download the [`zip` file](https://github.com/MattDMo/Tag-ST2/archive/master.zip) or [`tar.gz` file](https://github.com/MattDMo/Tag-ST2/archive/master.tar.gz). Go the the `Packages` folder and unzip/untar.gz the archive there. It'll create a `Tag-ST2` folder. Rename it to `Tag`. Completely restart Sublime and you're all set.
+
+### Git
+
+Go to the `Packages` folder in the command line and run
+
+    git clone https://github.com/MattDMo/Tag-ST2.git Tag
+
+to create a `Tag` folder. Completely restart Sublime and you're all set.
+
+# Original README
+
 Description
 ------------------
 
@@ -97,3 +130,7 @@ Experimental feature which aims to check correctness of opened and closed tags.
 *Usage*
 
 The main menu "Edit" -> "Tag" -> "Tag Lint"
+
+---
+
+Just in case it's not clear: ***I didn't write any of this. This is all Tito Bouzout's work, and all credit goes to him. This repo is simply a mirror of his code provided for the public good.***
